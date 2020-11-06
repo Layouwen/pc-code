@@ -19,10 +19,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ant-carousel {
-  
-}
-
 .ant-carousel ::v-deep(.slick-slide) {
   
   .imgWrapper {
