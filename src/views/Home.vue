@@ -1,20 +1,14 @@
 <template>
   <Header/>
+  <Swiper/>
 </template>
 
 <script>
 import Header from '../components/Header.vue'
+import Swiper from '../components/Swiper.vue'
 
 export default {
   name: 'Home',
-  components: { Header },
-  props: {
-    msg: String
-  },
-  data () {
-    return {
-      count: 0
-    }
-  }
+  components: { Swiper, Header }
 }
 </script>

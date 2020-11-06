@@ -24,6 +24,7 @@
 import {ref} from 'vue';
 
 export default {
+  name: 'Header',
   setup() {
     const activeIndex = ref(0);
     const inputValue = ref('');
