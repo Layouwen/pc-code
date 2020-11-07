@@ -20,9 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .ant-carousel ::v-deep(.slick-slide) {
-  
   .imgWrapper {
-    
     img {
       width: 100%;
     }
