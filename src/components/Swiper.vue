@@ -22,10 +22,9 @@ export default {
 .ant-carousel ::v-deep(.slick-slide) {
   
   .imgWrapper {
-    height: 525px;
     
     img {
-      height: 525px;
+      width: 100%;
     }
   }
 }
