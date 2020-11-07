@@ -12,7 +12,6 @@
     <nav>
       <a v-for="(nav, index) in navList"
          :href="nav.url"
-         :class="{'active': activeIndex === index}"
          @click="changeIndex(nav.url)"
       >{{nav
         .title}}</a>
@@ -26,7 +25,6 @@ import {ref} from 'vue';
 export default {
   name: 'Header',
   setup() {
-    const activeIndex = ref(0);
     const inputValue = ref('');
     const navList = [
       {url: 'javascript:', title: '主页'},
@@ -42,7 +40,7 @@ export default {
     const onSearch = inputData => {
       console.log('你搜索的内容是', inputData);
     };
-    return {activeIndex, navList, changeIndex, inputValue, onSearch};
+    return {navList, changeIndex, inputValue, onSearch};
   },
 };
 </script>
@@ -68,10 +66,6 @@ header {
   nav {
     > a {
       margin: 0 20px;
-      
-      &.active {
-        color: red;
-      }
     }
   }
 }

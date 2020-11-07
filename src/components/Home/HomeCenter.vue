@@ -55,7 +55,8 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 1200px;
-  margin: 80px auto;
+  margin: 0 auto;
+  padding: 80px 0;
   
   > .item {
     display: flex;
