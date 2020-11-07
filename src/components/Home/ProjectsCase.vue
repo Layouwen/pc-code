@@ -12,6 +12,9 @@
         <div class="describe">{{item.describe}}</div>
       </div>
     </div>
+    <div class="more-wrapper">
+      <div class='more'/>
+    </div>
   </div>
 </template>
 
@@ -71,6 +74,17 @@ export default {
       }
     }
     
+  }
+  
+  > .more-wrapper {
+    display: flex;
+    justify-content: center;
+    
+    > .more {
+      width: 100px;
+      height: 45px;
+      background: url("http://www.seejoys.net.cn/Tpl/SJ_Home/conf/images/lc-icon.png") no-repeat 0 0;
+    }
   }
 }
 </style>
