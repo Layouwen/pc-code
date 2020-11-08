@@ -10,20 +10,24 @@
   <div class="line-wrapper" style='background: #f1f5f7;'>
     <ProjectProcess/>
   </div>
+  <div style='background: #f1f5f7;'>
+    <CallMe/>
+  </div>
   <Footer/>
 </template>
 
 <script lang='ts'>
-import Footer from '../components/Footer.vue';
 import Header from '../components/Header.vue';
-import ProjectProcess from '../components/Home/ProjectProcess.vue';
-import ProjectsCase from '../components/Home/ProjectsCase.vue';
 import Swiper from '../components/Swiper.vue';
+import Footer from '../components/Footer.vue';
 import HomeCenter from '../components/Home/HomeCenter.vue';
+import ProjectsCase from '../components/Home/ProjectsCase.vue';
+import ProjectProcess from '../components/Home/ProjectProcess.vue';
+import CallMe from '../components/Home/CallMe.vue';
 
 export default {
   name: 'Home',
-  components: {Footer, ProjectProcess, ProjectsCase, Swiper, Header, HomeCenter},
+  components: {CallMe, Footer, ProjectProcess, ProjectsCase, Swiper, Header, HomeCenter},
 };
 </script>
 
