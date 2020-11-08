@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    Copyright © 2020 layouwen.com .All rights reserved. 粤ICP备xxxxxx号-1
+    Copyright © 2020 gitee.com/layouwen .All rights reserved. 粤ICP备xxxxxx号-1
   </div>
 </template>
 
